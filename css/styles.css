@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:900');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@900&family=Audiowide&family=Cinzel:wght@500&family=Poppins:wght@300&display=swap');
+body {
+  padding: 0;
+  background: #343a40;
+  color:#fff;
+  font-family: 'Poppins', sans-serif;
+}
+header {
+  padding: 120px 50px 120px;
+  background: url('../asset/img/back.jpg') no-repeat;
+  background-size: cover;
+  background-position: center 45%
+}
+.navbar-brand {
+  font-size:1.8em;
+  transition: all 0.4s;
+}
+.navbar-brand:hover {
+
+}
+#navbarNavDropdown {
+  justify-content: end
+}
+.navbar-nav > li{
+  padding-left:30px;
+  padding-right:30px;
+  font-size:1.3em;
+}
+header h1 {
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-size: 120px;
+  color: #f36;
+  mix-blend-mode: multiply;
+  padding: 0;
+  margin: 0;
+  line-height: 0.6;
+  text-align:center
+}
+.alegreya {
+  font-family: 'Alegreya Sans SC', sans-serif;
+}
+.card {
+    width:18rem
+  }
+  .card-img-top {
+    max-height:360px
+  }
+.mtl {margin-top:70px}
+@media (min-width: 768px) {
+  .collapse.dont-collapse-sm {
+    display: block;
+    height: auto !important;
+    visibility: visible;
+  }
+
+}
+@media (max-width: 768px) {
+
+  header {
+    padding: 90px 60px 60px;
+    background: url('../asset/img/back.jpg') no-repeat;
+    background-size: cover;
+    background-position: center 25%
+  }
+  header h1 {
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 55px;
+    color: #f36;
+    mix-blend-mode: multiply;
+    padding: 0;
+    margin: 0;
+    line-height: 0.65;
+    text-align:center
+  }
+  .card-img-top {
+    width:100px;
+    height:120px;
+    top:10px;
+    left:10px;
+    position:absolute
+  }
+  .card {
+    width:100%;
+    margin:10px auto;
+  }
+  .card-body {
+    margin-left:120px
+  }
+}
