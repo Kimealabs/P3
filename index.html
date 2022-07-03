@@ -10,7 +10,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="css/styles.css" />
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" rel="stylesheet" />
-  <title>F2PA - Les films de plein air</title>
+  <title>F2PA</title>
 </head>
 
 <body>
@@ -26,10 +26,10 @@
             <a class="nav-link active " aria-current="page" href="/OCR/P3">Accueil</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link " href="#">Articles</a>
+            <a class="nav-link " href="articles.html">Articles</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link " href="#">Contact</a>
+            <a class="nav-link " href="contact.html">Contact</a>
           </li>
         </ul>
       </div>
@@ -51,7 +51,6 @@
 
     <div class="row justify-content-start">
       <div class="col-12 col-md-9">
-
 
         <div class="mtl d-flex  justify-content-around flex-wrap" style="column-gap:40px;row-gap:40px">
           <div class="card text-dark">
@@ -336,7 +335,7 @@
     document.documentElement.scrollTop = hauteurTotaleElem
   }
 
-  document.querySelector('#btn-to-valid').addEventListener('click', ()=> {
+  document.querySelector('#btn-to-valid').addEventListener('click', () => {
     let modal = new bootstrap.Modal(document.getElementById("modalSign"), {})
     modal.show()
   })
