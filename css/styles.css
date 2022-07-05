@@ -47,6 +47,9 @@ header h1 {
     max-height:360px
   }
 .mtl {margin-top:70px}
+.clickable:hover {
+  cursor: pointer;
+}
 @media (min-width: 768px) {
   .collapse.dont-collapse-sm {
     display: block;
